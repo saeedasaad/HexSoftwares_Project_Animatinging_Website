@@ -1,0 +1,181 @@
+/* Work Page Wrapper */
+.work-page {
+    padding: 3rem;
+    width: 95%;
+    margin: auto;
+}
+
+/* Header */
+.work-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.work-title {
+    font-size: 5vw;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    opacity: 0.6;
+    transition: all 0.4s ease;
+}
+
+.view-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 8px 8px;
+    border: 1px solid white;
+    border-radius: 30px;
+    gap: 10px;
+}
+
+.view-toggle a {
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+    transition: all 0.3s ease;
+    padding: 2px 20px;
+    background-color: transparent;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.view-toggle a.active {
+    color: black;
+    background-color: #fff;
+    border-color: #333;
+}
+
+.view-toggle a:hover {
+    color: black;
+    background-color: #fff;
+}
+
+/* Work Content */
+.work-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 2rem;
+
+}
+
+/* Work Item */
+.work-item {
+    position: relative;
+    border-radius: 20px;
+    ;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    height: 500px;
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+/* Background layer */
+.work-media::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    margin: auto;
+    transition: filter 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-media.one::before {
+    background-image: url(../images/lucid-motors.webp);
+}
+
+.work-media.two::before {
+    background-image: url(../images/baron-capital1.webp);
+}
+
+.work-media.three::before {
+    background-image: url(../images/nfl.webp);
+}
+
+.work-media.four::before {
+    background-image: url(../images/placenew.webp);
+}
+
+.work-media.five::before {
+    background-image: url(../images/ixperience.webp);
+}
+
+.work-media.six::before {
+    background-image: url(../images/hudu.webp);
+}
+
+.work-media.seven::before {
+    background-image: url(../images/somos.webp);
+}
+
+.work-media.Eight::before {
+    background-image: url(../images/hero.webp);
+}
+
+.work-video {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 250px;
+    display: none;
+
+}
+
+.work-media.blur-bg::before {
+    filter: blur(8px);
+}
+
+.work-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 2rem;
+
+}
+
+.company-name {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    opacity: 0.6;
+    transition: all 0.4s ease;
+}
+
+.work-year {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+
+.work-content,
+.work-section {
+    display: none;
+}
+
+.active-view {
+    display: grid;
+}
+
+.filtered {
+    filter: blur(6px);
+    transition: filter 0.3s ease;
+}
+
+.work-section {
+    margin-bottom: 300px !important;
+    width: 100% !important;
+}

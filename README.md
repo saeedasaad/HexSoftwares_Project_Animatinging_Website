@@ -18,19 +18,35 @@ The focus is on creating a **header section with animations**, where elements fa
   - `contact.html`: Styled form with consistent theme
 
 ---
-
 ##  Project Structure
+```text
+HexSoftwares_Project_gym_website/
+│
+├── index.html
+├── playground.html
+├── work.html
+├── contact.html               
+├── CSS
+│   ├── style.css 
+│   ├── playground.css
+│   ├── work.css
+│   ├── contact.css
+│   └── locomotive.css            
+├── JS
+│   ├── script.js 
+│   ├── playground.js
+│   ├── work.js
+│   ├── Contact.js
+│   └── Menu.js               
+├── images/           # Assets (logos, videos, thumbnails)        
+│   ├── favicon.svg 
+│   └── hero.jpg
+└── README.md               
 
-
-##  Project Structure
-
-project-root/ │ ├── index.html          # Homepage with animated hero + footer ├── work.html           # Work showcase with grid/list toggle ├── playground.html     # Horizontal video scroller ├── contact.html        # Contact page with unified styles │ ├── CSS/ │   ├── style.css       # Global styles (colors, layout, animations) │   ├── work.css        # Work page specific styles │   ├── playground.css  # Playground page styles │   └── locomotive.css  # Locomotive scroll styles │ ├── JS/ │   ├── script.js       # Global animations + locomotive setup │   ├── menu.js         # Navigation toggle logic │   ├── work.js         # Work page video hover + view toggle │   └── playground.js   # Playground video scroller + fade-in │ └── images/             # Assets (logos, videos, thumbnails)
+````
 ---
 
-
----
-
-## 🛠️ Technologies Used
+## Technologies Used
 - **HTML5** – Semantic structure  
 - **CSS3** – Flexbox, Grid, transitions, responsive design  
 - **JavaScript (ES6)** – DOM manipulation, event listeners  
@@ -39,7 +55,7 @@ project-root/ │ ├── index.html          # Homepage with animated hero + 
 
 ---
 
-## ▶️ Getting Started
+##  Getting Started
 
 1. **Clone the repo**
    ```bash
@@ -47,12 +63,33 @@ project-root/ │ ├── index.html          # Homepage with animated hero + 
    cd animated-website
 
    ````
-   - Open in browser
+2. **Open in browser**
 - Simply open index.html in your browser.
 - Or use a local server (e.g. VS Code Live Server).
-- Explore pages
+  
+3. **Explore pages**
 - index.html → Animated hero + footer
 - work.html → Work showcase with video hover
 - playground.html → Horizontal video scroller
 - contact.html → Contact form with consistent theme
+  
+---
 
+##  Responsive Design
+- Desktop: Full animations, large layout
+- Tablet: Adjusted font sizes, stacked navigation
+- Mobile: Simplified layout, hidden scroll indicators, full-width buttons
+
+---
+
+## Live Demo
+
+Check out the live demo here: [View Demo](https://your-demo-link.com)
+
+![Website Demo](images/demo.gif)
+
+##  Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change
+
+---

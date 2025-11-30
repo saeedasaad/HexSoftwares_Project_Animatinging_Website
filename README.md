@@ -84,12 +84,13 @@ HexSoftwares_Project_gym_website/
 
 ## Live Demo
 
-Check out the live demo here: [View Demo](https://your-demo-link.com)
+Check out the live demo here: [View Demo](https://saeedasaad.github.io/HexSoftwares_Project_Animatinging_Website/)
 
-![Website Demo](images/demo.gif)
+---
 
 ##  Contributing
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change
 
 ---
+
